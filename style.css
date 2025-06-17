@@ -258,6 +258,52 @@ nav {
         transform: translateY(-10px);
     }
 }
+.pricing-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.pricing-section h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.package {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.package:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.package h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.package p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
 
 .bounce-icon {
     display: inline-block;
@@ -325,6 +371,57 @@ nav {
 .read-more:hover {
     text-decoration: underline;
 }
+
+.services-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.services-section h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.service {
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.service i {
+    font-size: 50px;
+    color: #1a1e01;
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.service p {
+    font-size: 16px;
+    color: #666;
+}
+
 
 footer {
     background-color: #f8f8f8;
