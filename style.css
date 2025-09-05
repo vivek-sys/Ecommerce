@@ -30,7 +30,7 @@ nav {
     z-index: 1000;
 }
 
-.nav-middle a {
+/* .nav-middle a {
     color: black;
     text-decoration: none;
     margin: 0 15px;
@@ -41,7 +41,7 @@ nav {
 .nav-middle a i {
     font-size: 12px;
     margin-left: 5px;
-}
+} */
 
 .nav-right {
     display: flex;
@@ -332,6 +332,7 @@ nav {
     gap: 30px;
 }
 
+
 .post {
     background: #fff;
     border-radius: 10px;
@@ -370,6 +371,33 @@ nav {
 
 .read-more:hover {
     text-decoration: underline;
+}
+
+.blog-detail {
+  padding: 40px 20px;
+  background: #f9f9f9;
+}
+
+.blog-detail h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.blog-detail p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.back-button {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 1rem;
+  color: #0073e6;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  text-decoration: underline;
 }
 
 .services-section {
@@ -421,6 +449,66 @@ nav {
     font-size: 16px;
     color: #666;
 }
+
+/* ✨ Contact Section */
+.contact-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #f9fafb, #ffffff);
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #1a1e01;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+  border-color: #1a1e01;
+  box-shadow: 0 0 8px rgba(26, 30, 1, 0.3);
+}
+
+.contact-section textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-section button {
+  padding: 14px;
+  background: #1a1e01;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-section button:hover {
+  background: #333;
+  transform: scale(1.05);
+}
+
 
 
 footer {
@@ -474,3 +562,4 @@ footer {
     margin: 0 10px;
     font-size: 0.9rem;
 }
+
